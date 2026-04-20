@@ -1,6 +1,6 @@
 <?php
 
-$url = "http://eric.org/web-serveur/ch13/index.php";
+$url = "http://challenge01.root-me.org/web-serveur/ch13/?lang";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
